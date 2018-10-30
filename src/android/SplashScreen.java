@@ -19,6 +19,7 @@
 
 package org.apache.cordova.splashscreen;
 
+import org.elastos.trinity.dapprt.TrinityPlugin;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -47,7 +48,7 @@ import org.apache.cordova.CordovaWebView;
 import org.json.JSONArray;
 import org.json.JSONException;
 
-public class SplashScreen extends CordovaPlugin {
+public class SplashScreen extends TrinityPlugin {
     private static final String LOG_TAG = "SplashScreen";
     // Cordova 3.x.x has a copy of this plugin bundled with it (SplashScreenInternal.java).
     // Enable functionality only if running on 4.x.x.
