@@ -114,7 +114,7 @@ public class SplashScreen extends TrinityPlugin {
             showSplashScreen(autoHide);
         }
 
-        if (preferences.getBoolean("SplashShowOnlyFirstTime", true)) {
+        if (preferences.getBoolean("SplashShowOnlyFirstTime", false)) {
             firstShow = false;
         }
     }
