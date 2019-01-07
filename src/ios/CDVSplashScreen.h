@@ -19,6 +19,7 @@
 
 #import <Foundation/Foundation.h>
 #import <Cordova/CDVPlugin.h>
+#import "TrinityPlugin.h"
 
 typedef struct {
     BOOL iPhone;
@@ -32,7 +33,7 @@ typedef struct {
     
 } CDV_iOSDevice;
 
-@interface CDVSplashScreen : CDVPlugin {
+@interface CDVSplashScreen : TrinityPlugin {
     UIActivityIndicatorView* _activityView;
     UIImageView* _imageView;
     NSString* _curImageName;
