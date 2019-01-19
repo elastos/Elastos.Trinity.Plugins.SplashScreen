@@ -23,19 +23,19 @@ description: Control the splash screen for your app.
 
 |AppVeyor|Travis CI|
 |:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-splashscreen?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-splashscreen)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-splashscreen.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-splashscreen)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/elastos-trinity-plugins-splashscreen?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/elastos-trinity-plugins-splashscreen)|[![Build Status](https://travis-ci.org/apache/elastos-trinity-plugins-splashscreen.svg?branch=master)](https://travis-ci.org/apache/elastos-trinity-plugins-splashscreen)|
 
-# cordova-plugin-splashscreen
+# elastos-trinity-plugins-splashscreen
 
 This plugin is required to work with splash screens. This plugin displays and hides a splash screen during application launch.
 
 ## Installation
 
     // npm hosted (new) id
-    cordova plugin add cordova-plugin-splashscreen
+    cordova plugin add elastos-trinity-plugins-splashscreen
 
     // you may also install directly from this repo
-    cordova plugin add https://github.com/apache/cordova-plugin-splashscreen.git
+    cordova plugin add https://github.com/apache/elastos-trinity-plugins-splashscreen.git
 
 ## Supported Platforms
 
