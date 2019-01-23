@@ -31,11 +31,10 @@ This plugin is required to work with splash screens. This plugin displays and hi
 
 ## Installation
 
-    // npm hosted (new) id
-    cordova plugin add elastos-trinity-plugins-splashscreen
-
-    // you may also install directly from this repo
+    // you may install directly from this repo
     cordova plugin add https://github.com/apache/elastos-trinity-plugins-splashscreen.git
+
+    The plugins field of dapp manifest.json adds SplashScreen values, such as "plugins": ["XXXX", "SplashScreen", "XXXX"]
 
 ## Supported Platforms
 
