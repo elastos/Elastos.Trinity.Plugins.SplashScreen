@@ -19,7 +19,7 @@
 
 package org.apache.cordova.splashscreen;
 
-import org.elastos.trinity.dapprt.TrinityPlugin;
+import org.elastos.trinity.runtime.TrinityPlugin;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
